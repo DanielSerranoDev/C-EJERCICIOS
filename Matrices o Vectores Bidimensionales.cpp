@@ -1,3 +1,7 @@
+
+/*
+HAGO MATRIZ BIDIMENSIONAL SOLICITANDO AL USUARIO NUMERO DE FILAS Y COLUMNAS
+*/
 #include<iostream>
 #include<conio.h>
 using namespace std;

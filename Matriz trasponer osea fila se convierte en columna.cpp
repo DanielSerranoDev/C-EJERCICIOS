@@ -1,3 +1,9 @@
+
+/*
+
+LA MATRIZ LA TRASPONGO OSEA MUESTRO LAS FILAS EN LAS COLUMNAS Y VICEVERSA
+
+*/
 #include<iostream>
 #include<conio.h>
 using namespace std;
