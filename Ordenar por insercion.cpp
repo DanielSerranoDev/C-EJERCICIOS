@@ -11,14 +11,14 @@ int main(){
 	for(i=0;i<5;i++){
 		pos = i;//0
 		aux = vector[i];//5
-		
 		while((pos>0) && (vector[pos-1]>aux)){ //
 			vector[pos]= vector[pos-1];
-			pos--;		
+	
+			pos--;
 		}	
 		vector[pos]=aux;
 	}
-	
+
 	cout<<"Orden ascedente"<<endl;
 	
 	for(i=0;i<5;i++){
@@ -32,7 +32,7 @@ int main(){
 		
 		cout<<vector[i];
 	}
-	
+
 	getch();
 	return 0;
 }
