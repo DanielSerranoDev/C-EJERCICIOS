@@ -3,7 +3,7 @@
 using namespace std;
 
 int main(){
-	int matriz[100][100],filas,columnas;
+	int matriz[][],filas,columnas;
 	char band='F';
 	
 	cout<<"Indicanumero de filas: ";cin>>filas;
