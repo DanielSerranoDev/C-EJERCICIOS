@@ -1,6 +1,6 @@
 /*TIPOS DE FUNCIONES*/
 
-//1º CASO NO RECIBE VALORES Y NI TAMPOCO RETORNA VALOR NO/NO
+//2º CASO NO RECIBE VALORES Y NI TAMPOCO RETORNA VALOR NO/NO
 #include<iostream>
 #include<conio.h>
 using namespace std;
