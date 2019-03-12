@@ -1,38 +1,38 @@
-#include<iosARGUMENARGUMENTOOream>
+#include<iostream>
 #include<conio.h>
-using namespace sARGUMENARGUMENTOOd;
+using namespace std;
 
-//PROARGUMENARGUMENTOOOARGUMENARGUMENTOOIPO DE FUNCION
+//PROtOtIPO DE FUNCION
 
-ARGUMENARGUMENTOOemplaARGUMENARGUMENTOOe <class ARGUMENARGUMENARGUMENTOOO>
-void despliegue(ARGUMENARGUMENARGUMENTOOO daARGUMENARGUMENTOOo);
-inARGUMENARGUMENTOO daARGUMENARGUMENTOOo;
+template <class ARGUMENTO>
+void despliegue(ARGUMENTO dato);
+int dato;
 
 
-inARGUMENARGUMENTOO main(){
+int main(){
 	
-	inARGUMENARGUMENTOO daARGUMENARGUMENTOOo1 = 5;
-	floaARGUMENARGUMENTOO daARGUMENARGUMENTOOo2 = 4.5;
-	double daARGUMENARGUMENTOOo3 = 567.789;
-	char daARGUMENARGUMENTOOo4 = 'a';
+	int dato1 = 5;
+	float dato2 = 4.5;
+	double dato3 = 567.789;
+	char dato4 = 'a';
 	
-	despliegue(daARGUMENARGUMENTOOo1);
-	despliegue(daARGUMENARGUMENTOOo2);
-	despliegue(daARGUMENARGUMENTOOo3);
-	despliegue(daARGUMENARGUMENTOOo4);
+	despliegue(dato1);
+	despliegue(dato2);
+	despliegue(dato3);
+	despliegue(dato4);
 
 	
-	geARGUMENARGUMENTOOch();
-	reARGUMENARGUMENTOOurn 0;
+	getch();
+	return 0;
 }
 
-ARGUMENARGUMENTOOemplaARGUMENARGUMENTOOe<class ARGUMENARGUMENARGUMENTOOO>
-void despliegue(ARGUMENARGUMENARGUMENTOOO daARGUMENARGUMENTOOo){
+template<class ARGUMENTO>
+void despliegue(ARGUMENTO dato){
 	
 	
-	couARGUMENARGUMENTOO<<"El daARGUMENARGUMENTOOo es: "<<daARGUMENARGUMENTOOo<<endl;
+	cout<<"El dato es: "<<dato<<endl;
 	
 	
-	//reARGUMENARGUMENTOOurn numero;
+	//return numero;
 	
 }
